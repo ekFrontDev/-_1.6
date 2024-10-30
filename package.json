@@ -12,6 +12,7 @@
   "license": "ISC",
   "author": "Kata Academy",
   "main": "index.js",
+  "homepage": "https://github.com/ekFrontDev/-_1.6",
   "scripts": {
     "build": "webpack --mode production",
     "predeploy": "npm run build",
