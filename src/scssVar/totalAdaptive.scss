@@ -1,0 +1,383 @@
+/*телефон*/
+@media (max-width: 768px) {
+	body {
+		width: auto;
+	}
+}
+
+/*планшет*/
+@media (min-width: 768px) and (max-width: 1120px) {
+	body {
+		width: auto;
+		height: 100%;
+	}
+
+	main {
+		height: 65vh;
+	}
+
+.nav__call,
+.nav__chat,
+.nav__profile,
+.nav__divider2 {
+	display: flex;
+}
+
+.main__service-1 {
+	margin-left: 24px;
+ }
+
+.nav__logo {
+	margin-right: 250.73px;
+}
+
+.main__sidebar::after {
+	content: "";
+	position: absolute;
+	left: 742px;
+	top: 183px;
+	display: block;
+	width: 24px;
+	height: 40px;
+	margin-right: 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.4)25%, rgba(255, 255, 255, 0)75%);	
+}
+
+.main__about-us {
+	display: flex;
+	margin: 32px 25px 40px 24px;
+	padding: 0;
+}
+
+.article__paragraph,
+.article__paragraph-2 {
+	display: flex;
+	margin-left: auto;
+	margin-top: 0;
+	width: 312px;
+	height: auto;
+	line-height: 20px;
+	flex-wrap: wrap;
+}
+
+.aside__next {
+	margin: 0;
+}
+
+.main__logo-time--size {
+	width: 360px;
+	height: 208px;
+	border-radius: 6px;
+}
+
+.header__popup-burger::after {
+  background-color: rgba(248, 248, 248, 0.95);
+}
+
+.popup-burger__wrapper {
+	background-color: rgba(248, 248, 248, 1);
+}
+
+}
+
+/*десктоп*/
+@media (min-width: 1120px) {
+	body {
+		width: 1120px;
+		height: 100%;
+		margin: 0 auto;	
+	}
+
+	.header {
+		padding-top: 42px;
+		height: 40px;
+		border-bottom: 0;
+		background-color: rgba(248, 248, 248, 1);
+	}
+
+	.nav__menu,
+	.nav__logo,
+	.nav__call,
+	.nav__chat,
+	.nav__profile,
+	.nav__divider2,
+	.nav__divider {
+		display: none;
+	}
+
+	.nav__repair {
+		margin-left: auto;
+	}
+
+	.nav__checkstatus {
+		margin: 0 32px;
+	}
+
+	.nav__repair::before {
+		content:"Оставить заявку";
+		display: inline-block;
+		font-family: "TT Lakes";
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		padding: 8px;
+		vertical-align: top;
+	}
+
+	.nav__checkstatus::before {
+		content:"Статус ремонта";
+		display: inline-block;
+		font-family: "TT Lakes";
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		padding: 8px;
+		vertical-align: top;
+	}
+
+	.nav {
+		align-items: flex-start;
+		height: 40px;
+		margin-bottom: 8px;
+	}
+
+	.main__title {
+		margin: 0;
+		margin-left: 30px;
+		margin-top: -65px;
+	}
+
+	.main__sidebar {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		white-space: nowrap;
+		padding-right: 16.54px;
+		padding-left: 0;
+	}
+
+	.main__sidebar::after {
+		background-color: rgba(0, 0, 0, 0);
+		background: linear-gradient(to left, rgba(0, 0, 0, 0)25%, rgba(0, 0, 0, 0)75%);
+	}
+
+	.main__service-1 {
+		margin-left: 24px;
+	}
+
+	.main__service-1-button,
+	.main__service-2-button,
+	.main__service-3-button,
+	.main__service-4-button,
+	.main__service-5-button {
+		padding: 4px 16px 4px 16px;
+	}
+
+	.main__service-6-button {
+		margin-left: 24px;
+		padding: 8px 18px;
+	}
+
+	.main__about-us {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0;
+		margin-left: 34px;
+		margin-right: 28.65px;
+	}
+
+	.main__history {
+		display: flex;
+		flex-wrap: wrap;
+		height: 160px;
+	}
+
+	.main__logo-time--size {
+	width: 531.35px;
+	height: 307px;
+	margin-left: 30px;
+	border-radius: 6px;
+	}
+
+	.article__paragraph,
+	.article__paragraph-2,
+	.article__paragraph-3 {
+		width: 496.02px;
+		padding: 0;
+		display: inline;
+		text-indent: 0;
+    margin-left: 0;
+	}
+
+.main__article-p1 {
+	margin-bottom: 20px;
+}
+
+.article__paragraph-2 {
+	padding-bottom: 0;
+	white-space: no-wrap;
+}
+
+.aside__next {
+	margin: 0;
+}
+
+}
+
+@media (min-width: 1366px) {
+	body {
+		width: 1120px;
+		height: 100%;
+		right: 0;
+		margin: 0 0 0 320px;
+	}
+
+	/*попапсправа*/
+	.popup-burger {
+		display: block;
+		margin-left: auto;
+		width: 320px;
+		transform: translateX(-320px);
+	}
+
+	.main__title::before {
+		left: 3px;
+	}
+
+	.popup-burger__header {
+		margin-top: 16px;
+	}
+
+	.popup-burger__body {
+		height: 60vh;
+		background-color: rgba(255, 255, 255, 1);
+		margin-bottom: 0;
+	}
+
+	.popup-burger__eventListener-mouseClick {
+		display: none;
+	}
+
+	.header__popup-burger::after {
+		display: none;
+	}
+
+	.popup-burger__footer {
+		background-color: rgba(255, 255, 255, 1);
+		height: 100%;
+	}
+
+	.popup-burger__wrapper {
+		box-shadow: none;
+		height: 100%;
+	}
+
+	.popup-burger__button-1 {
+		display: none;
+	}
+
+	/*адаптация для попапа*/
+	.popup-callback__body {
+		width: 440px;
+		background-color: $backgroundPopup;
+	}
+
+	.popup-callback__header {
+		height: 85px;
+	}
+
+	.popup-callback__header--text {
+		margin-left: 32px;
+		position: relative;
+		top: -75px;
+	}
+
+	.popup-callback__header--text::before {
+		top: -5px;
+		left: -32px;
+	}
+
+	.popup-callback__input {
+		width: 376px;
+		height: 48px;
+		margin-left: 32px;
+	}
+
+	.popup-callback__footer {
+		width: 376px;
+		margin: 0 auto;
+	}
+
+	.popup-callback__button-wrapper {
+		margin-left: 270px;
+	}
+
+	.popup-callback {
+		position: fixed;
+	}
+
+	.popup-callback__header-button {
+		position: relative;
+		right: 80px;
+	}
+
+	.popup-callback::after {
+		background-color: rgba(248, 248, 248, 0.95);
+	}
+
+	/*адаптация для попапа 2*/
+	.popup-call {
+		position: fixed;
+	}
+
+	.popup-call__body {
+		width: 440px;
+		background-color: $backgroundPopup;
+	}
+
+	.popup-call__header-button {
+		position: relative;
+		right: 80px;
+	}
+
+	.popup-call__header--text {
+		margin-left: 32px;
+		position: relative;
+		top: -75px;
+	}
+
+	.popup-call__header--text::before {
+		top: -5px;
+		left: -32px;
+	}
+
+	.popup-call__header {
+		height: 85px;
+	}
+
+	.popup-call__input,
+	.popup-call__textarea {
+		width: 376px;
+		margin-left: 32px;
+	}
+
+	.popup-call__footer {
+		width: 376px;
+	}
+	
+	.popup-call__button-wrapper {
+		margin-left: 270px;
+	}
+
+	.popup-call::after {
+		background-color: rgba(248, 248, 248, 0.95);
+	}
+
+}
+
+@media (min-width: 1441px) {
+	body {
+		margin: 0 0 0 28%;
+	}
+}

@@ -1,0 +1,250 @@
+.popup-burger {
+	display: none;
+}
+
+.header__popup-burger {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-burger__eventListener-mouseClick {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 320px;
+	z-index: 21;
+}
+
+.header__popup-burger::after {
+	content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $backgroundPopup;
+  z-index: 20;
+}
+
+.popup-burger__wrapper {
+	z-index: 21;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	box-shadow: 5px 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+.popup-burger__body {
+	width: 320px;
+	height: 65vh;
+	margin: 0;
+	font-family: "TT Lakes";
+	z-index: 21;
+	margin-bottom: 24px;
+}
+
+.popup-burger__header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.popup-burger__main {
+	width: auto;
+	height: 65vh;
+	overflow: hidden;
+}
+
+.popup-burger__nav {
+	width: 100%;
+	height: 88px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	padding: 0;
+}
+
+.popup-burger__nav button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.popup-burger__nav button:hover {
+	opacity: 0.8;
+	transform: scale(1.05);
+}
+
+.popup-burger__nav button:active {
+	transform: scale(1);
+}
+
+.popup-burger__nav--menu {
+	margin-left: 24px;
+	padding-right: 16.73px;
+}
+
+.popup-burger__nav--search {
+	margin-left: auto;
+	margin-right: 24px;
+}
+
+.popup-burger__nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.popup-burger__nav--burgerClose {
+	margin-left: 16px;
+	margin-right: 16px;
+	
+}
+
+.popup-burger__nav--search {
+	margin-left: auto;
+	margin-right: 16px;
+}
+
+.popup-burger__footer {
+	background-color: $backgroundPopup;
+}
+
+.popup-burger__sidebar {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: auto;
+}
+
+.popup-burger__sidebar div button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid rgba(0, 0, 0, 0);
+	font-family: "TT Lakes";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	padding: 8px 9.3px 8px 6px;
+	margin-left: 16px;
+	cursor: pointer;
+}
+
+.main__service-0-button:hover,
+.main__service-7-button:hover {
+	border:2px solid rgba(65, 246, 215, 1);
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.popup-burger__sidebar .block:hover {
+	color: rgba(126, 126, 130, 1);
+}
+
+.popup-burger__sidebar button:active {
+	transform: scale(0.98);
+}
+
+.popup-burger__sidebar div:hover::before {
+	content: '';
+	background-color: rgba(65, 246, 215, 1);
+	border: 3px solid rgba(65, 246, 215, 1);
+	border-radius: 10px;
+	position: absolute;
+	width: 4px;
+	height: 36px;
+	left: 0;
+	margin-left: -5px;
+}
+
+.popup-burger__footer {
+	margin-top: auto;
+}
+
+.popup-burger__footer-menu {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: auto;
+	margin-bottom: 16px;
+	width: 196px;
+}
+
+.popup-burger__footer-menu button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.popup-burger__footer-menu button:hover {
+	opacity: 0.8;
+	transform: scale(1.05);
+}
+
+.popup-burger__footer-menu button:active {
+	transform: scale(1);
+}
+
+.popup-burger__footer-menu--button-6 {
+	margin-right: auto;
+}
+
+.popup-burger__footer-menu--button-4 {
+	margin-left: 24px;
+	margin-right: 16px;
+}
+
+.popup-burger__footer-menu--button-5 {
+	margin-right: 16px;
+}
+
+.popup-burger__footer-contacts {
+	display: flex;
+	flex-direction: column;
+	margin-left: 24px;
+}
+
+.popup-burger__footer-menu--mail {
+	margin-bottom: 12px;
+}
+
+.popup-burger__footer-menu--phone {
+	font-family: "TT Lakes";
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.popup-burger__footer-menu--lang {
+	margin-left: 24px;
+	padding-bottom: 32px;
+	font-family: "TT Lakes";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.popup-burger__footer-menu--ru,
+.popup-burger__footer-menu--en {
+	margin-right: 7px;
+}
+
+.popup-burger__footer-menu--ru:hover,
+.popup-burger__footer-menu--en:hover,
+.popup-burger__footer-menu--ch:hover {
+	color: rgba(126, 126, 130, 1);
+	cursor: pointer;
+}
+
+/*дополнительный класс для добавления элементов на странице*/
+.display-block {
+	display: block;
+}
+
+.display-hidden {
+	display: none;
+}
+
+

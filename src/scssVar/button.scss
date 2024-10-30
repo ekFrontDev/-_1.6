@@ -1,0 +1,174 @@
+/* кнопка Читать далее*/
+.aside__next {
+	padding: 0;
+	margin-left: 16px;
+	margin-right: auto;
+	margin-bottom: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(27, 28, 33, 1);
+	font-family: "TT Lakes";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/*эффект наведения на кнопку Читать далее*/
+.aside__next:hover,
+.aside__hidden:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+/*эффект нажатия на кнопку Читать далее*/
+.aside__next:active,
+.aside__hidden:active {
+	transform: scale(0.97);
+	transition: transform 50ms;
+}
+
+/*псевдоэлемент стрелочки*/
+.aside__next::before {
+	content: '';
+	display: inline-block;
+	margin-right: 8px;
+	background-image: url('/src/img/expand.svg');
+	width: 24px;
+	height: 24px;
+}
+
+.aside__hidden {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	color: rgba(27, 28, 33, 1);
+	font-family: "TT Lakes";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	display: none;
+	position: relative;
+	left: 40px;
+	top: -10px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1120px) {
+	.aside__hidden {
+		top: -30px;
+		left: 20px;
+	}
+
+	.aside__next {
+		position: relative;
+		left: -10px;
+	}
+}
+
+.aside__hidden::before {
+	content: '';
+	position: absolute;
+	left: -25px;
+	display: inline-block;
+	background-image: url('/src/img/expand.svg');
+	width: 24px;
+	height: 24px;
+	transform: rotate(180deg);
+}
+
+/* медиа для кнопок свайпера 1 */
+@media (max-width: 767px) {
+	.brands-container--footer {
+		display: none;
+	}
+
+	.brands-container--button-7,
+	.brands-container--button-8,
+	.brands-container--button-9,
+	.brands-container--button-10,
+	.brands-container--button-11 {
+		display: block !important;
+	}
+}
+
+/* стили для кнопки "скрыть" */
+.brands-container--button-hidden {
+	width: 134px;
+	height: 24px;
+	background-color: #F8F8F8;
+	border: none;
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(27, 28, 33, 1);
+	padding: 0;
+	margin: 24px auto 24px 45px;
+	position: relative;
+	left: -25px;
+	z-index: 2;
+}
+/* стрелки для кнопки через псевдоэлемент */
+.brands-container--button-hidden::before {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url('/src/img/expand.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -1px;
+	left: 7.5px;
+	transform: scale(1.2) rotate(180deg);
+}
+/*стили для кнопки "показать все"*/
+.brands-container--button-showall {
+	width: 134px;
+	height: 24px;
+	background-color: #F8F8F8;
+	border: none;
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(27, 28, 33, 1);
+	padding: 0;
+	margin: 0 auto 24px 45px;
+	position: relative;
+}
+
+/*псевдоэлемент для кнопки "показать все"*/
+.brands-container--button-showall::before {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: url('/src/img/expand.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: -15px;
+	transform: scale(1.2);
+}
+
+/*эффект при наведении на кнопку "показать все"*/
+.brands-container--button-showall:hover,
+.brands-container--button-hidden:hover {
+	color: rgba(27, 28, 33, 0.603);
+}
+
+/*эффект при нажатии на кнопку "показать все"*/
+.brands-container--button-showall:active,
+.brands-container--button-hidden:active {
+	transform: scale(0.97);
+	transition: transform 50ms;
+}
+
+button#hidden2 {
+	display: none;
+}
+
+
+

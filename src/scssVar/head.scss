@@ -1,0 +1,85 @@
+.header {
+ 	box-shadow: inset 0 -1px 0 0 rgba(217, 255, 245, 1);
+ 	width: auto;
+ 	height: 88px;
+ 	margin: 0;
+ 	padding: 0;
+ 	background-color: rgba(255, 255, 255, 1);
+ }
+
+ .nav {
+	width: 100%;
+	height: 88px;
+	margin-left: 2px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	padding: 0;	
+}
+
+.nav__menu {
+	margin-left: 14px;
+}
+
+.nav__checkstatus {
+	margin-right: 16px;
+}
+
+.nav__divider,
+.nav__divider2 {
+	background-color: rgba(234, 234, 234, 1);
+	width: 2px;
+	height: 32px;
+	border-radius: 10px;
+}
+
+.nav__img-burger {
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+.nav__button-1,
+.nav__button-2,
+.nav__button-3,
+.nav__button--call--768px,
+.nav__button--chat--768px,
+.nav__button--profile--768px {
+	border: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav__call,
+.nav__chat,
+.nav__profile,
+.nav__divider2 {
+	display: none;
+}
+
+	.nav__img-burger:hover,
+	.nav__img-repair:hover,
+	.nav__img-checkstatus:hover,
+	.nav__img-call:hover,
+	.nav__img-chat:hover,
+	.nav__img-profile:hover {
+		opacity: 0.8;
+	transform: scale(1.05);
+	}
+
+	.nav__img-burger:active,
+	.nav__img-repair:active,
+	.nav__img-checkstatus:active,
+	.nav__img-call:active,
+	.nav__img-chat:active,
+	.nav__img-profile:active {
+		transform: scale(1);
+	}

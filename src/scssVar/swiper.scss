@@ -1,0 +1,395 @@
+/* стили свайперов */
+
+/* заголовок ремонт техники различных брендов слайдера 1 */
+.title-swiper {
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(126, 126, 130, 1);
+	margin: 0;
+	padding: 16px 16px;
+	width: auto;
+	border-top: 1px solid rgba(217, 255, 245, 1);
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.swiper-container {
+	position: relative;
+	}
+
+.brands-container {
+	padding: 0;
+	margin: 0;
+	background-color: #F8F8F8;
+	margin-bottom: 5px;
+}
+
+.brands-container--list {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+/*общий стиль кнопок*/
+.brands-container--button {
+	border: 2px solid rgba(234, 234, 234, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	height: 72px;
+	width: 240px;
+	position: relative;
+	margin: 16px;
+}
+
+/*внешние отступы картинок*/
+.brands-container--image {
+	padding: 0;
+	margin: 20px 116px 20px 16px;
+}
+
+/*внешние отступы картинок*/
+.brands-container--image--margin-samsung {
+	margin: 14px 108px 20px 16px;
+}
+
+/*внешние отступы картинок*/
+.brands-container--image--margin-apple {
+	margin: 10px 180px 18px 16px;
+}
+
+/*внешние отступы картинок*/
+.brands-container--image--margin-hp {
+	margin: 8px 180px 20px 16px;
+}
+
+/* картинка стрелка через псевдоэлемент */
+.brands-container--button::after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url('/src/img/go.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 14px;
+	right: 16px;
+}
+
+/*псевдоэлемент для мобильной версии, эффект линейного градиента*/
+body::after {
+	content: "";
+	width: 24px;
+	height: 90px;
+	position: absolute;
+	top: 710px;
+	right: 0;
+	background-image: linear-gradient(to right, #ffffff00, #ffffffe0);
+	z-index: 1;
+}
+
+.swiper-container-2::after {
+	content: "";
+	width: 24px;
+	height: 190px;
+	position: absolute;
+	top: 930px;
+	right: 0;
+	background-image: linear-gradient(to right, #ffffff00, #ffffffe0);
+	z-index: 1;
+}
+
+/*эффект при наведении на кнопку*/
+.brands-container--button:hover {
+	border-color: rgba(65, 246, 215, 1);
+	transform: scale(1.02);
+	transition: transform 200ms;
+}
+
+/*эффект при нажатии на кнопку*/
+.brands-container--button:active {
+	transform: scale(0.98);
+	transition: transform 50ms;
+}
+
+
+/*заголовок ремонт различных видов техники свайпера 2*/
+.title-swiper-2 {
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(126, 126, 130, 1);
+	margin: 0;
+	padding: 16px 16px;
+	width: auto;
+	border-top: 1px solid rgba(217, 255, 245, 1);
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/*общий стиль кнопок свайпера 2*/
+.brands-container--swiper-2--button {
+	border: 2px solid rgba(234, 234, 234, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	height: 160px;
+	width: 240px;
+	position: relative;
+	margin: 16px;
+}
+
+/* картинка стрелка через псевдоэлемент */
+.brands-container--swiper-2--button::after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image: url('/src/img/go.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+}
+
+/*эффект при наведении на кнопку*/
+.brands-container--swiper-2--button:hover {
+	border-color: rgba(65, 246, 215, 1);
+	transform: scale(1.02);
+	transition: transform 200ms;
+}
+
+/*эффект при нажатии на кнопку*/
+.brands-container--swiper-2--button:active {
+	transform: scale(0.98);
+	transition: transform 50ms;
+}
+
+/*текст внутри кнопок*/
+.brands-container--paragraph {
+	font-family: "TT Lakes";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: start;
+	margin-bottom: auto;
+	position: absolute;
+	top: 0;
+	left: 16px;
+}
+
+/*заголовок цены на услуги свайпера 3*/
+.title-swiper-3 {
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(126, 126, 130, 1);
+	margin: 0;
+	padding: 16px 16px;
+	width: auto;
+	border-top: 1px solid rgba(217, 255, 245, 1);
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/*стили для названия столбцов таблицы на планшете и десктопе*/
+
+
+.swiper-container-3--tittle--list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.swiper-container-3--tittle-block1 {
+	margin-right: 246px;
+}
+
+.swiper-container-3--tittle-block2 {
+	margin-right: 61px;
+}
+
+.swiper-container-3--tittle-block3 {
+	margin-right: auto;
+}
+
+.swiper-container-3--tittle {
+	display: none;
+}
+
+.swiper-container-3--tittle--text {
+	font-family: "TT Lakes";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(126, 126, 130, 1);
+}
+
+/*общие стили слайдов слайдера 3*/
+.swiper-container-3__slide {
+	position: relative;
+	width: 228px;
+	height: 168px;
+	background-color: $background;
+	margin: 16px;
+	padding: 16px;
+	border-radius: 10px;
+}
+
+/*кнопка на слайдере 3*/
+.brands-container--swiper-3--button {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+	width: 119px;
+	height: 32px;
+	background-color: $buttonOrder;
+	border-radius: 16px;
+	border: none;
+	margin-bottom: 0;
+}
+
+.brands-container--swiper-3--button::after {
+	content: '';
+	width: 24px;
+	height: 24px;
+	display: block;
+	background-image: url('/src/img/goside.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 4px;
+	right: 10px;
+	transform: scale(1.1);
+}
+
+.brands-container--swiper-3--button:hover {
+	transform: scale(1.02);
+	transition: transform 300ms;
+	opacity: 0.80;
+}
+
+.brands-container--swiper-3--button:active {
+	transform: scale(0.95);
+	transition: transform 25ms;
+}
+
+.swiper-container-3--paragraph {
+	position: absolute;
+	top: -8px;
+	left: 12px;
+	font-family: "TT Lakes";
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: $background;
+	text-align: center;
+}
+
+.swiper-container-3__slide--text {
+	font-family: "TT Lakes";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.swiper-container-3__slide--text:nth-child(1)::after {
+	content: 'Ремонтные услуги';
+	position: absolute;
+	top: 22px;
+	left: 17px;
+	color: rgba(126, 126, 130, 1);
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.swiper-container-3__slide--text:nth-child(2)::after {
+	content: 'Цена';
+	position: absolute;
+	top: 85px;
+	left: 17px;
+	color: rgba(126, 126, 130, 1);
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.swiper-container-3__slide--text:nth-child(3)::after {
+	content: 'Срок';
+	position: absolute;
+	top: 140px;
+	left: 17px;
+	color: rgba(126, 126, 130, 1);
+	font-size: 14px;
+	line-height: 16px;
+}
+
+
+.swiper-container-3__slide--wraper {
+	display: grid;
+	grid-template-rows: 65px 55px 25px;
+	align-items: baseline;
+	margin-top: 25px;
+}
+
+.brands-container--info {
+	display: block;
+	min-width: 288px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.brands-container--info p {
+	padding: 0 16px;
+	font-family: "TT Lakes";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.brands-container--info-price {
+	position: relative;
+}
+
+.brands-container--info-price--text {
+	font-family: "TT Lakes";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 16px;
+	margin-bottom: 50	px;
+}
+
+.brands-container--info-price--text::after {
+	content: '';
+	display: block;
+	width: 24px;
+	height: 27.49px;
+	background-image: url('/src/img/more.svg');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 23px;
+	left: 120px;
+}
+
+.brands-container--info-price--text:hover {
+	text-decoration: underline;
+}
+
+.brands-container--info-price--text:hover {
+	animation-name: translate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	opacity: 0.7;
+}
+
+@keyframes translate {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(10px);
+	}
+}
