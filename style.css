@@ -286,7 +286,7 @@ main {
   position: absolute;
   left: -25px;
   display: inline-block;
-  background-image: url("/src/img/expand.svg");
+  background-image: url("img/expand.svg");
   width: 24px;
   height: 24px;
   transform: rotate(180deg); }
@@ -325,7 +325,7 @@ main {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("/src/img/expand.svg");
+  background-image: url("img/expand.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: -1px;
@@ -353,7 +353,7 @@ main {
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url("/src/img/expand.svg");
+  background-image: url("img/expand.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
@@ -465,7 +465,7 @@ button#hidden2 {
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url("/src/img/go.svg");
+  background-image: url("img/go.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 14px;
@@ -533,7 +533,7 @@ body::after {
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url("/src/img/go.svg");
+  background-image: url("img/go.svg");
   background-repeat: no-repeat;
   position: absolute;
   bottom: 16px;
@@ -628,7 +628,7 @@ body::after {
   width: 24px;
   height: 24px;
   display: block;
-  background-image: url("/src/img/goside.svg");
+  background-image: url("img/goside.svg");
   background-repeat: no-repeat;
   position: absolute;
   bottom: 4px;
@@ -724,7 +724,7 @@ body::after {
   display: block;
   width: 24px;
   height: 27.49px;
-  background-image: url("/src/img/more.svg");
+  background-image: url("img/more.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 23px;
@@ -1045,7 +1045,7 @@ body::after {
   position: absolute;
   top: 100px;
   left: 0;
-  background-image: url("/src/img/highlight.svg"); }
+  background-image: url("img/highlight.svg"); }
 
 .popup-call__input {
   width: 288px;
@@ -1132,7 +1132,7 @@ body::after {
   position: absolute;
   top: 4px;
   right: 9.14px;
-  background-image: url("/src/img/goside.svg");
+  background-image: url("img/goside.svg");
   background-repeat: no-repeat; }
 
 .popup-call__footer--link {
@@ -1231,7 +1231,7 @@ body::after {
   position: absolute;
   top: 100px;
   left: 0;
-  background-image: url("/src/img/highlight.svg"); }
+  background-image: url("img/highlight.svg"); }
 
 .popup-callback__input {
   width: 288px;
@@ -1295,7 +1295,7 @@ body::after {
   position: absolute;
   top: 4px;
   right: 9.14px;
-  background-image: url("/src/img/goside.svg");
+  background-image: url("img/goside.svg");
   background-repeat: no-repeat; }
 
 .popup-callback__footer--link {
