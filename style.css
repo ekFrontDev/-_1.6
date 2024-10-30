@@ -254,7 +254,7 @@ main {
   content: '';
   display: inline-block;
   margin-right: 8px;
-  background-image: url("/src/img/expand.svg");
+  background-image: url("img/expand.svg");
   width: 24px;
   height: 24px; }
 
