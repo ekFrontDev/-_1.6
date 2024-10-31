@@ -1587,7 +1587,7 @@ body::after {
   .brands-container--p11 {
     display: none; }
   .display-block {
-    display: block; }
+    display: block !important; }
   .display-hidden {
     display: none; }
   .title-swiper {
