@@ -1699,7 +1699,7 @@ body::after {
   .brands-container--button-showall {
     top: 10px; }
   .brands-container--button-hidden {
-    display: block; }
+    display: block !important; }
   .brands-container--info {
     width: 450px;
     margin-left: 0; }
