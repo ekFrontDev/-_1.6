@@ -793,7 +793,7 @@ body::after {
 
 .popup-burger__body {
   width: 320px;
-  height: 65vh;
+  height: 75vh;
   margin: 0;
   font-family: "TT Lakes";
   z-index: 21;
